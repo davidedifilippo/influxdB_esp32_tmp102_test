@@ -1,10 +1,7 @@
 #include <Arduino.h>
 
-//InfluxDB & Grafana Tutorial
-//The DIY Life by Michael Klements
-//21 January 2022
 
-#include <Wire.h>                                                   //Import the required libraries
+#include <Wire.h>                                                   
 #include <SparkFunTMP102.h> // Used to send and recieve specific information from our sensor
 #include <WiFiMulti.h>
 WiFiMulti wifiMulti;
